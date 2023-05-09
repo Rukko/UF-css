@@ -1,0 +1,184 @@
+:root {
+    /* ---- Sombras */
+    --shade-0: #101010;
+    --shade-50: #161616;
+    --shade-100: #1f1f1f;
+    --shade-150: #222222;
+    --shade-200: #2f2f2f;
+    --shade-250: #333333;
+    --shade-300: #3f3f3f;
+    --shade-400: #525252;
+    --shade-500: #656565;
+    --shade-600: #7e7e7e;
+    --shade-700: #979797;
+    --shade-725: #aaaaaa;
+    --shade-750: #a8a8a8;
+    --shade-800: #b0b0b0;
+    --shade-825: #c2c2c2;
+    --shade-850: #cccccc;
+    --shade-899: #dcdcdc;
+    --shade-900: #dddddd;
+    --shade-924: #e9e9e9;
+    --shade-925: #eeeeee;
+    --shade-975: #fafafa;
+
+    /* Rangos */
+    --Administrador: #cc0000;
+    --Moderador: #00aaff;
+    --Vigilante: #e083c4;
+    --Usuario: #ffffff;
+    --Baneado: #eeeeee;
+    --VIP: #81d22a;
+
+	/* Variables pre asignadas al tema */
+	--theme-text: var(--shade-924);
+	--theme-text-alt: var(--shade-800);
+	--theme-text-inverse: var(--shade-50);
+	--theme-accent: var(--shade-750);
+	--theme-accent-dark: var(--shade-400);
+	--theme-accent-light: var(--shade-825);
+	--theme-border: var(--shade-400);
+
+    /* Tema oscuro */
+	--color-text: var(--theme-text);
+	--color-text-pale: var(--theme-text-alt);
+	--color-link: var(--theme-accent-light);
+	--color-th-text: var(--theme-text);
+	--color-hr-text: var(--theme-text);
+	--color-background-1: var(--shade-100);
+	--color-background-2: var(--shade-150);
+	--color-highlight: var(--theme-accent-light);
+    --color-border: var(--theme-border);
+    --color-pagination-text: var(--theme-text-inverse);
+    --color-pagination-text-visited: var(--shade-200);
+    --color-shadow-text: #ffffffcc;
+    --color-spoil-shadow-text: rgba(44, 53, 65, 0.8);
+    --color-shadow-box: #4d4d4d4d;
+    --color-background-link: #cccccc;
+    --color-accent-1: var(--theme-color-accent);
+    --color-accent-2: var(--theme-color-accent-dark);
+    --color-accent-3: var(--theme-color-accent-light);
+    --color-spoilbtn-1: var(--shade-975);
+    --color-spoilbtn-2: var(--shade-900);
+    --color-spoilbtn-text: var(--theme-text-inverse);
+	--color-button-1: #fffffa;
+	--color-button-2: #ffffdd;
+	--color-alert: red;
+	--color-alert-1: #ffaaaa;
+	--color-alert-2: #ffdada;
+	--color-post-button-1: #aaffaa;
+	--color-post-button-2: #daffda;
+	--color-trow1-background-1: var(--shade-300);
+	--color-trow1-background-2: var(--shade-200);
+	--color-trow2-background-1: var(--shade-100);
+	--color-trow2-background-2: var(--shade-200);
+	--color-sticky-background-1: var(--shade-300);
+	--color-sticky-background-2: var(--shade-200);
+	--color-regular-background-1: var(--shade-400);
+	--color-regular-background-2: var(--shade-300);
+	--color-alert-background-1: #fffbd9;	/* #bfbb99;*/
+	--color-alert-background-2: #dddaa2;
+	--color-alert-border: #ffd324;
+    --color-link-visited: var(--theme-text-alt);
+    --color-info-border: var(--shade-500);
+	--color-filter-background-1: #acb541;
+	--color-filter-background-2: #c3d063;
+	--color-activo-hex: #999900;
+	--color-activo-rgba: rgba(200, 200, 0, 0.3);
+	--color-completo-hex: #009900;
+	--color-completo-rgba: rgba(0, 200, 0, 0.3);
+	--color-abandonado-hex: #990000;
+	--color-abandonado-rgba: rgba(200, 0, 0, 0.3);
+	--color-subiendo-1: #d3edbd;
+	--color-subiendo-2: #b8d6a5;
+	--color-tcat-1: var(--shade-100);
+	--color-tcat-2: var(--shade-50);
+	--color-thead-background-1: var(--shade-100);
+	--color-thead-background-2: var(--shade-200);
+	--color-thead-background-3: var(--shade-50);
+	--color-thead-text: var(--theme-text);
+	--color-panel-background-1: var(--shade-150); /* tfoot, welcome, bottommenu, pollbar... */
+	--color-panel-background-2: var(--shade-50); /* tfoot, welcome, bottommenu, pollbar... */
+	--color-table-border: var(--shade-50);
+	--color-menu-backrgound-hover: rgba(0, 0, 0, 0.1);
+	--color-editedby-neutral-text: var(--theme-text);
+	--color-success-text: #008800;
+	--color-blockquote-background: var(--shade-100);
+	--color-accent-border: #81a2c4;
+	--color-row-pale-background: #ffdde0;
+	--color-input-border: #0f5c8e;
+	--color-editor-background: #f1f1f1;
+	--color-autocomplete-background: #adcee7;
+	--color-menu-hover-background: #c7dbee;
+	--color-reputation_positive-background: #ccffcc; /* no vale para nada, lo sobrescribe --color-trowX-background */
+	--color-reputation_negative-background: #ffcccc; /* no vale para nada, lo sobrescribe --color-trowX-background */
+	--color-invalid-border: #ff3300;
+	--color-valid-border: #008800;
+	--color-blackquote-shadow: rgba(0, 0, 0, 0.2);
+	--color-red_alert-background: #fbe3e4;
+	--color-red_alert-border: #a5161a;
+	--color-blue_alert-background: #e3e4fb;
+	--color-blue_alert: #161aa5;
+	--color-error-text: #cc0000;
+	--color-error-border: #ff9394;
+	--color-error-background: #ffe6cf;
+	--color-warning_moderate-text: #f3611b;
+	--color-warning_low-text: #ae5700;
+	--color-online-text: #15a018;
+	--color-offline-text: var(--theme-text);
+	--color-neutral-text: var(--theme-text);
+	--color-minus-background: #fdd2d1;
+	--color-minus-text: #cb0200;
+	--color-minus-border: #980201;
+	--color-plus-background: #e8fcdc;
+	--color-plus-text: #008800;
+	--color-plus-border: #008800;
+	--color-breadcrumb-background: #fafafa;
+	--color-button-background-hover: rgba(255, 255, 255, 0.2);
+	--color-clicked-background-hover: rgba(255, 255, 255, 0.3);
+	--color-toolbar_editor-border: #aaaaaa;
+	--color-toolbar_dropdown-background: #eeeeee;
+	--color-toolbar_dropdown-border: #5296f7;
+	--color-toolbar_dropdown-text: navy;
+	--color-toolbar_dropdown-background-2: #c1d2ee;
+	--color-ficha-border: #cdcac2;
+	--color-ficha-shadow: rgba(44, 53, 65, 0.3);
+	--color-xtra_td-background: #cbc8c0;
+	--color-masinfo-shadow: rgba(60, 69, 65, 0.5);
+	--color-normas-background-1: #f3ddcd;
+	--color-normas-background-2: #d8c6b5;
+	--color-normas-border: #aa0000;
+	--color-diccionario-background-1: #2c8541;
+	--color-diccionario-background-2: #43a063;
+	--color-button-text: var(--theme-text-inverse);
+	--color-color-text: blue;
+	--color-portadas-background-1: rgba(200, 200, 0, 0.9);
+	--color-portadas-background-2: rgba(200, 0, 0, 0.9);
+	--color-filelist-background-1: var(--shade-200);
+	--color-filelist-background-2: var(--shade-300);
+	--color-link-shadow: rgba(255, 0, 0, 0.3);
+	--color-link_hover-shadow: rgba(192, 0, 0, 1);
+	--color-pmform-background-1: #c7c3b9;
+	--color-pmform-background-2: #bdbab2;
+}
+
+/* Añadimos o sobreescriimos algunos estilos */
+
+/* Foto de cabecera */
+#top,
+#logostrip {
+    filter: saturate(0.5);
+}
+
+.forumdisplay_sticky td,
+.spoil {
+  background-image: linear-gradient(var(--shade-500), var(--shade-0)) !important;
+}
+
+.action:link {
+    color: var(--theme-text-inverse);
+}
+
+.action:hover {
+    color: var(--theme-text);
+}
