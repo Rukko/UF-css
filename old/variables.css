@@ -1,0 +1,85 @@
+:root {
+  /* Colores */
+  --color-black: #000000;
+  --color-black-100: #111111;
+  --color-dark-blue-900: #00326a;
+  --color-dark-blue-800: #072a66;
+  --color-dark-blue-700: #003977;
+  --color-dark-blue-600: #004e98;
+  --color-dark-green-400: #004000;
+  --color-dark-green-700: #2c4135;
+  --color-dark-green-600: #007800;
+  --color-dark-red: #aa0000;
+  --color-dark-yellow: #997700;
+  --color-gray-dark: #aca899;
+  --color-blue: #0000ff;
+  --color-blue-700: #0099ff;
+  --color-blue-600: #3a4f6c;
+  --color-blue-800: #7192b2;
+  --color-light-blue-700: #00aaff;
+  --color-light-blue-900: #00ccff;
+  --color-green-600: #008800;
+  --color-green-700: #436350;
+  --color-green-500: #00aa00;
+  --color-green-400: #00a455;
+  --color-red: #ff0000;
+  --color-red-700: #a83838;
+  --color-red-600: #ee0000;
+  --color-red-800: #cc0000;
+  --color-orange: #ea5f00;
+  --color-orange-100: #ffc9a5;
+  --color-pink: #e083c4;
+  --color-yellow: #ffff00;
+  --color-yellow-700: #ceaa49;
+  --color-yellow-600: #eeee00;
+  --color-yellow-500: #fad750;
+  --color-yellow-400: #f3c15e;
+  --color-yellow-300: #ffff99;
+  --color-yellow-200: #e9d58f;
+  --color-gray: #cccccc;
+  --color-gray-100: #c2cfdf;
+  --color-gray-200: #ece9d8;
+  --color-gray-300: #dfe6ef;
+  --color-gray-400: #dfdddd;
+  --color-gray-500: #e2e2e0;
+  --color-gray-600: #f5f4ea;
+  --color-gray-700: #f0f5fa;
+  --color-gray-800: #f4f5f5;
+
+  /* Sombras */
+  --shade-0: #101010;
+  --shade-50: #161616;
+  --shade-100: #1f1f1f;
+  --shade-200: #2f2f2f;
+  --shade-300: #3f3f3f;
+  --shade-400: #525252;
+  --shade-500: #656565;
+  --shade-600: #7e7e7e;
+  --shade-700: #979797;
+  --shade-750: #a8a8a8;
+  --shade-800: #b0b0b0;
+  --shade-850: #c2c2c2;
+  --shade-900: #dcdcdc;
+  --shade-950: #e9e9e9;
+
+  /* Tema claro */
+  --theme-color-background: var(--color-green-700);
+  --theme-color-background-gradient-ini: var(--shade-950);
+  --theme-color-background-gradient-end: var(--shade-950);
+  --theme-color-text: var(--black);
+  --theme-color-text-alt: var(--shade-900);
+  --theme-color-accent: var(--shade-750);
+  --theme-color-accent-dark: var(--shade-600);
+  --theme-color-accent-light: var(--shade-850);
+  --theme-color-border: var(--shade-400);
+
+
+
+  /* Tema oscuro 
+	--theme-color-text: var(--shade-950);
+	--theme-color-text-alt: var(--shade-900);
+	--theme-color-accent: var(--shade-750);
+	--theme-color-accent-dark: var(--shade-600);
+	--theme-color-accent-light: var(--shade-850);
+	--theme-color-border: var(--shade-400);*/
+}
